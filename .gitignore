@@ -1,0 +1,15 @@
+# Generated files
+docs/elm.js
+docs/elm-with-debugger.js
+docs/elm-without-debugger.js
+docs/elm.js
+
+# Dependency directories
+elm-stuff
+node_modules
+
+# Desktop Services Store on macOS
+.DS_Store
+
+build/
+Elmjutsu*

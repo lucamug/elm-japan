@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+node_modules/.bin/surge   ./build 6kdq2gk0ba54vbke-co-2019-11-29.surge.sh
+# node_modules/.bin/surge   ./build 6kdq2gk0ba54vbke-ec-2019-10-31.surge.sh

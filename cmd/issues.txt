@@ -1,0 +1,59 @@
+
+
+# UNUSED ITEMS
+
+
+
+# OTHER ISSUES
+
+Found 40 message(s)
+
+Messages:
+- src/Counter.elm
+  > Value constructor `Flexible` is not used. Declared at ((23,7),(23,15))
+  > Value constructor `Rigid` is not used. Declared at ((29,7),(29,18))
+* src/FloatingTokyoCity.elm
+  > Importing all from module `Playground` at ((15,29),(15,31))
+  > Importing all from module `Playground3d` at ((16,31),(16,33))
+- src/Main.elm
+  > Value constructor `Icon_Love` is not used. Declared at ((1739,7),(1739,16))
+  > Value constructor `Icon_Organize` is not used. Declared at ((1741,7),(1741,20))
+  > Value constructor `Icon_CustomerSupport` is not used. Declared at ((1742,7),(1742,27))
+  > Value constructor `Icon_Card` is not used. Declared at ((1743,7),(1743,16))
+  > Value constructor `Icon_Seo` is not used. Declared at ((1747,7),(1747,15))
+  > Value constructor `Icon_Internet` is not used. Declared at ((1748,7),(1748,20))
+  > Value constructor `Icon_Training` is not used. Declared at ((1753,7),(1753,20))
+  > Value constructor `Icon_Fireworks` is not used. Declared at ((1755,7),(1755,21))
+  > Value constructor `Icon_AlarmClock` is not used. Declared at ((1756,7),(1756,22))
+  > Value constructor `Icon_Conversation` is not used. Declared at ((1757,7),(1757,24))
+  > Value constructor `Icon_QRCode` is not used. Declared at ((1761,7),(1761,18))
+  > Value constructor `Icon_Videos` is not used. Declared at ((1763,7),(1763,18))
+- src/Playground.elm
+  > Importing all from module `Svg` at ((105,22),(105,24))
+  > Importing all from module `Svg.Attributes` at ((106,33),(106,35))
+  > Unused variable `newComputerScreen` at ((732,9),(732,26))
+  > Unused variable `visibility` inside pattern at ((792,17),(792,27))
+  > Unused variable `computer` inside pattern at ((792,35),(792,43))
+- src/Playground3d.elm
+  > Importing all from module `Playground` at ((23,29),(23,31))
+  > Record should be formatted over multiple lines at ((38,5),(38,40))
+
+
+# LINES OF CODE
+
+       6 text files.
+classified 6 files       6 unique files.                              
+       0 files ignored.
+
+github.com/AlDanial/cloc v 1.82  T=0.05 s (125.9 files/s, 127856.9 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Elm                              6           1170            700           4222
+-------------------------------------------------------------------------------
+SUM:                             6           1170            700           4222
+-------------------------------------------------------------------------------
+
+
+# END
+

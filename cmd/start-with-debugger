@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+elm-live/bin/elm-live.js src/Main.elm --pushstate --path-to-elm=node_modules/.bin/elm --no-hot-reloading --ide=atom --dir=docs --start-page=index.html --port=8001 -- --output=docs/elm-with-debugger.js --debug
