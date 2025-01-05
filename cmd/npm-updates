@@ -1,0 +1,14 @@
+#!/bin/bash
+set -eu
+
+# The "--packageFile package.json" argument is a fixer for Windows, please see:
+# https://github.com/raineorshine/npm-check-updates/issues/136
+#
+# This command require the package `npm-check-updates`
+#
+# npm install -g npm-check-updates
+#
+# Not to be confused with `ncu`, https://www.npmjs.com/package/ncu, that is
+# a deprecated package.
+#
+npx npm-check-updates --packageFile package.json

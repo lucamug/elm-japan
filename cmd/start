@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+npx elm-watch@2.0.0-beta.3 hot with-debugger without-debugger | cat
+

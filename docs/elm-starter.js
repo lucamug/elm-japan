@@ -3,7 +3,7 @@
     "use strict";
 
     var script = document.createElement("script");
-    script.src = location.href.indexOf("without-debugger") > 0 || window.innerWidth < 800 ? "elm-without-debugger.js" : "elm-with-debugger.js";
+    script.src = location.href.indexOf("without-debugger") > 0 || window.innerWidth < 800 ? "/elm-japan/elm-without-debugger.js" : "/elm-japan/elm-with-debugger.js";
     script.onload = function () {
         startElm();
     };

@@ -1329,7 +1329,7 @@ pageConferences model =
             [ { name = "Elm Conf"
               , twitter = "elmconf"
               , website = "https://2019.elm-conf.com/"
-              , logo = "/conference-logos/elm-conf.png"
+              , logo = "/elm-japan/conference-logos/elm-conf.png"
               , city = "St. Louis"
               , country = "Missouri, US"
               , editions =
@@ -1362,7 +1362,7 @@ pageConferences model =
             , { name = "Elm Europe"
               , twitter = "elm_europe"
               , website = "https://2019.elmeurope.org/"
-              , logo = "/conference-logos/elm-europe.jpg"
+              , logo = "/elm-japan/conference-logos/elm-europe.jpg"
               , city = "Paris"
               , country = "France"
               , editions =
@@ -1389,7 +1389,7 @@ pageConferences model =
             , { name = "Oslo Elm Day"
               , twitter = "osloelmday"
               , website = "https://osloelmday.no/"
-              , logo = "/conference-logos/oslo-elm-day.jpg"
+              , logo = "/elm-japan/conference-logos/oslo-elm-day.jpg"
               , city = "Oslo"
               , country = "Norway"
               , editions =
@@ -1410,7 +1410,7 @@ pageConferences model =
             , { name = "Elm in the Spring"
               , twitter = "ElmInTheSpring"
               , website = "https://elminthespring.org/"
-              , logo = "/conference-logos/elm-in-the-spring.jpg"
+              , logo = "/elm-japan/conference-logos/elm-in-the-spring.jpg"
               , city = "Chicago"
               , country = "Illinois, US"
               , editions =
@@ -1430,7 +1430,7 @@ pageConferences model =
             , { name = "Elm Japan"
               , twitter = "ElmJapanConf"
               , website = "https://elmjapan.org/"
-              , logo = "/conference-logos/elm-japan.png"
+              , logo = "/elm-japan/conference-logos/elm-japan.png"
               , city = "Tokyo"
               , country = "Japan"
               , editions =
@@ -1700,13 +1700,14 @@ subscriptions model =
                                     []
 
                                 else
-                                    [ Time.every 1000 TimeNow ]
-                                        ++ (if Counter.areMoving [ model.countdown ] then
-                                                [ Browser.Events.onAnimationFrame OnAnimationFrame ]
-
-                                            else
-                                                []
-                                           )
+                                    []
+                                -- [ Time.every 1000 TimeNow ]
+                                --     ++ (if Counter.areMoving [ model.countdown ] then
+                                --             [ Browser.Events.onAnimationFrame OnAnimationFrame ]
+                                --
+                                --         else
+                                --             []
+                                --        )
                                )
 
                     else

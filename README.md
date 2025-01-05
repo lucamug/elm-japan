@@ -1,13 +1,13 @@
 # elm-japan-2020
 
-[https://elmjapan.org](https://elmjapan.org)
+[https://lucamug.github.io/elm-japan/](https://lucamug.github.io/elm-japan/)
 
 ## Development
 
 ```
 $ git clone https://github.com/lucamug/elm-japan
 $ cd elm-japan
-$ cmd/start/start-with-debugger
+$ cmd/start
 ```
 
 ## Build

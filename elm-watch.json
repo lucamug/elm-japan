@@ -1,0 +1,14 @@
+{
+    "serve": "./public/",
+    "port": 8003,
+    "targets": {
+        "without-debugger": {
+            "inputs": ["./src/Main.elm"],
+            "output": "./public/elm-japan/elm-without-debugger.js"
+        },
+        "with-debugger": {
+            "inputs": ["./src/Main.elm"],
+            "output": "./public/elm-japan/elm-with-debugger.js"
+        }
+    }
+}
