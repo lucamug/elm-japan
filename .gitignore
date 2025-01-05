@@ -1,8 +1,8 @@
 # Generated files
-docs/elm.js
-docs/elm-with-debugger.js
-docs/elm-without-debugger.js
-docs/elm.js
+public/elm.js
+public/elm-with-debugger.js
+public/elm-without-debugger.js
+public/elm.js
 
 # Dependency directories
 elm-stuff
